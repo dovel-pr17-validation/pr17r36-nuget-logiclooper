@@ -1,0 +1,106 @@
+namespace Cysharp.Threading;
+
+/// <summary>
+/// Provides interface for update loop programming model.
+/// </summary>
+public interface ILogicLooper : IDisposable
+{
+    /// <summary>
+    /// Gets a unique identifier of the looper.
+    /// </summary>
+    int Id { get; }
+
+    /// <summary>
+    /// Gets an approximate count of running actions.
+    /// </summary>
+    int ApproximatelyRunningActions { get; }
+
+    /// <summary>
+    /// Gets a duration of the last processed frame. This does not include the time spent waiting for the next frame.
+    /// </summary>
+    TimeSpan LastProcessingDuration { get; }
+
+    /// <summary>
+    /// Gets a target frame rate of the looper.
+    /// </summary>
+    double TargetFrameRate { get; }
+
+    /// <summary>
+    /// Gets a current frame that elapsed since beginning the looper is started.
+    /// </summary>
+    long CurrentFrame { get; }
+
+    /// <summary>
+    /// Registers a loop-frame action to the looper and returns <see cref="Task"/> to wait for completion.
+    /// </summary>
+    /// <param name="loopAction">The action that is called every frame in the loop.</param>
+    /// <returns></returns>
+    Task RegisterActionAsync(LogicLooperActionDelegate loopAction);
+
+    /// <summary>
+    /// Registers a loop-frame action to the looper and returns <see cref="Task"/> to wait for completion.
+    /// </summary>
+    /// <param name="loopAction">The action that is called every frame in the loop.</param>
+    /// <param name="options">The options of the loop action.</param>
+    /// <returns></returns>
+    Task RegisterActionAsync(LogicLooperActionDelegate loopAction, LooperActionOptions options);
+
+    /// <summary>
+    /// Registers a loop-frame action with state object to the looper and returns <see cref="Task"/> to wait for completion.
+    /// </summary>
+    /// <param name="loopAction">The action that is called every frame in the loop.</param>
+    /// <param name="state">The object pass to the loop action.</param>
+    /// <returns></returns>
+    Task RegisterActionAsync<TState>(LogicLooperActionWithStateDelegate<TState> loopAction, TState state);
+
+    /// <summary>
+    /// Registers a loop-frame action with state object to the looper and returns <see cref="Task"/> to wait for completion.
+    /// </summary>
+    /// <param name="loopAction">The action that is called every frame in the loop.</param>
+    /// <param name="state">The object pass to the loop action.</param>
+    /// <param name="options">The options of the loop action.</param>
+    /// <returns></returns>
+    Task RegisterActionAsync<TState>(LogicLooperActionWithStateDelegate<TState> loopAction, TState state, LooperActionOptions options);
+
+    /// <summary>
+    /// [Experimental] Registers an async-aware loop-frame action to the looper and returns <see cref="Task"/> to wait for completion.
+    /// An asynchronous action is executed across multiple frames, differ from the synchronous version.
+    /// </summary>
+    /// <param name="loopAction">The action that is called every frame in the loop.</param>
+    /// <returns></returns>
+    Task RegisterActionAsync(LogicLooperAsyncActionDelegate loopAction);
+
+    /// <summary>
+    /// [Experimental] Registers an async-aware loop-frame action to the looper and returns <see cref="Task"/> to wait for completion.
+    /// An asynchronous action is executed across multiple frames, differ from the synchronous version.
+    /// </summary>
+    /// <param name="loopAction">The action that is called every frame in the loop.</param>
+    /// <param name="options">The options of the loop action.</param>
+    /// <returns></returns>
+    Task RegisterActionAsync(LogicLooperAsyncActionDelegate loopAction, LooperActionOptions options);
+
+    /// <summary>
+    /// [Experimental] Registers an async-aware loop-frame action with state object to the looper and returns <see cref="Task"/> to wait for completion.
+    /// An asynchronous action is executed across multiple frames, differ from the synchronous version.
+    /// </summary>
+    /// <param name="loopAction">The action that is called every frame in the loop.</param>
+    /// <param name="state">The object pass to the loop action.</param>
+    /// <returns></returns>
+    Task RegisterActionAsync<TState>(LogicLooperAsyncActionWithStateDelegate<TState> loopAction, TState state);
+
+    /// <summary>
+    /// [Experimental] Registers an async-aware loop-frame action with state object to the looper and returns <see cref="Task"/> to wait for completion.
+    /// An asynchronous action is executed across multiple frames, differ from the synchronous version.
+    /// </summary>
+    /// <param name="loopAction">The action that is called every frame in the loop.</param>
+    /// <param name="state">The object pass to the loop action.</param>
+    /// <param name="options">The options of the loop action.</param>
+    /// <returns></returns>
+    Task RegisterActionAsync<TState>(LogicLooperAsyncActionWithStateDelegate<TState> loopAction, TState state, LooperActionOptions options);
+
+    /// <summary>
+    /// Stops the action loop of the looper.
+    /// </summary>
+    /// <param name="shutdownDelay"></param>
+    Task ShutdownAsync(TimeSpan shutdownDelay);
+}

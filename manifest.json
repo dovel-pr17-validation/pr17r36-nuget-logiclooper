@@ -1,0 +1,419 @@
+{
+  "source_base_path": "/home/runner/work/pr17r36-nuget-logiclooper/pr17r36-nuget-logiclooper/docs",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cysharp.Threading.DefaultLogicLooperPoolLooperFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cysharp.Threading.DefaultLogicLooperPoolLooperFactory.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Cysharp.Threading.DefaultLogicLooperPoolLooperFactory",
+      "Summary": "<p sourcefile=\"api/Cysharp.Threading.DefaultLogicLooperPoolLooperFactory.yml\" sourcestartlinenumber=\"1\">Provides a default implementation of <xref href=\"Cysharp.Threading.ILogicLooperPoolLooperFactory\" data-throw-if-not-resolved=\"false\"></xref> for creating logic loopers with a\nspecified target frame time.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cysharp.Threading.Diagnostics.LogicLooperMetrics.InstrumentNames.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cysharp.Threading.Diagnostics.LogicLooperMetrics.InstrumentNames.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Cysharp.Threading.Diagnostics.LogicLooperMetrics.InstrumentNames",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cysharp.Threading.Diagnostics.LogicLooperMetrics.TagNames.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cysharp.Threading.Diagnostics.LogicLooperMetrics.TagNames.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Cysharp.Threading.Diagnostics.LogicLooperMetrics.TagNames",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cysharp.Threading.Diagnostics.LogicLooperMetrics.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cysharp.Threading.Diagnostics.LogicLooperMetrics.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Cysharp.Threading.Diagnostics.LogicLooperMetrics",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cysharp.Threading.Diagnostics.LogicLooperMetricsInitializationHostedService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cysharp.Threading.Diagnostics.LogicLooperMetricsInitializationHostedService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Cysharp.Threading.Diagnostics.LogicLooperMetricsInitializationHostedService",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cysharp.Threading.Diagnostics.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cysharp.Threading.Diagnostics.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Cysharp.Threading.Diagnostics",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cysharp.Threading.ILogicLooper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cysharp.Threading.ILogicLooper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Cysharp.Threading.ILogicLooper",
+      "Summary": "<p sourcefile=\"api/Cysharp.Threading.ILogicLooper.yml\" sourcestartlinenumber=\"1\">Provides interface for update loop programming model.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cysharp.Threading.ILogicLooperPool.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cysharp.Threading.ILogicLooperPool.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Cysharp.Threading.ILogicLooperPool",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cysharp.Threading.ILogicLooperPoolBalancer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cysharp.Threading.ILogicLooperPoolBalancer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Cysharp.Threading.ILogicLooperPoolBalancer",
+      "Summary": "<p sourcefile=\"api/Cysharp.Threading.ILogicLooperPoolBalancer.yml\" sourcestartlinenumber=\"1\">Defines a strategy for selecting an <xref href=\"Cysharp.Threading.ILogicLooper\" data-throw-if-not-resolved=\"false\"></xref> instance from a pool of available loopers.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cysharp.Threading.ILogicLooperPoolLooperFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cysharp.Threading.ILogicLooperPoolLooperFactory.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Cysharp.Threading.ILogicLooperPoolLooperFactory",
+      "Summary": "<p sourcefile=\"api/Cysharp.Threading.ILogicLooperPoolLooperFactory.yml\" sourcestartlinenumber=\"1\">Defines a factory for creating <xref href=\"Cysharp.Threading.ILogicLooper\" data-throw-if-not-resolved=\"false\"></xref> instances.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cysharp.Threading.LogicLooper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cysharp.Threading.LogicLooper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Cysharp.Threading.LogicLooper",
+      "Summary": "<p sourcefile=\"api/Cysharp.Threading.LogicLooper.yml\" sourcestartlinenumber=\"1\">Provides update loop programming model. the looper ties thread and while-loop and call registered methods every frame.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cysharp.Threading.LogicLooperActionContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cysharp.Threading.LogicLooperActionContext.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Cysharp.Threading.LogicLooperActionContext",
+      "Summary": "<p sourcefile=\"api/Cysharp.Threading.LogicLooperActionContext.yml\" sourcestartlinenumber=\"1\">Represents the current loop-action contextual values.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cysharp.Threading.LogicLooperActionDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cysharp.Threading.LogicLooperActionDelegate.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Cysharp.Threading.LogicLooperActionDelegate",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cysharp.Threading.LogicLooperActionWithStateDelegate-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cysharp.Threading.LogicLooperActionWithStateDelegate-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Cysharp.Threading.LogicLooperActionWithStateDelegate<T>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cysharp.Threading.LogicLooperAsyncActionDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cysharp.Threading.LogicLooperAsyncActionDelegate.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Cysharp.Threading.LogicLooperAsyncActionDelegate",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cysharp.Threading.LogicLooperAsyncActionWithStateDelegate-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cysharp.Threading.LogicLooperAsyncActionWithStateDelegate-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Cysharp.Threading.LogicLooperAsyncActionWithStateDelegate<T>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cysharp.Threading.LogicLooperCoroutine-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cysharp.Threading.LogicLooperCoroutine-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Cysharp.Threading.LogicLooperCoroutine<TResult>",
+      "Summary": "<p sourcefile=\"api/Cysharp.Threading.LogicLooperCoroutine-1.yml\" sourcestartlinenumber=\"1\">Represents a coroutine-like operation.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cysharp.Threading.LogicLooperCoroutine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cysharp.Threading.LogicLooperCoroutine.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Cysharp.Threading.LogicLooperCoroutine",
+      "Summary": "<p sourcefile=\"api/Cysharp.Threading.LogicLooperCoroutine.yml\" sourcestartlinenumber=\"1\">Represents a coroutine-like operation.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cysharp.Threading.LogicLooperCoroutineActionContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cysharp.Threading.LogicLooperCoroutineActionContext.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Cysharp.Threading.LogicLooperCoroutineActionContext",
+      "Summary": "<p sourcefile=\"api/Cysharp.Threading.LogicLooperCoroutineActionContext.yml\" sourcestartlinenumber=\"1\">Represents the current coroutine-like contextual values.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cysharp.Threading.LogicLooperPool.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cysharp.Threading.LogicLooperPool.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Cysharp.Threading.LogicLooperPool",
+      "Summary": "<p sourcefile=\"api/Cysharp.Threading.LogicLooperPool.yml\" sourcestartlinenumber=\"1\">Provides a pool of loopers that can be register loop-action into the pooled looper.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cysharp.Threading.LooperActionOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cysharp.Threading.LooperActionOptions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Cysharp.Threading.LooperActionOptions",
+      "Summary": "<p sourcefile=\"api/Cysharp.Threading.LooperActionOptions.yml\" sourcestartlinenumber=\"1\">Provides options for the loop-action.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cysharp.Threading.ManualLogicLooper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cysharp.Threading.ManualLogicLooper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Cysharp.Threading.ManualLogicLooper",
+      "Summary": "<p sourcefile=\"api/Cysharp.Threading.ManualLogicLooper.yml\" sourcestartlinenumber=\"1\">Implements <xref href=\"Cysharp.Threading.ILogicLooper\" data-throw-if-not-resolved=\"false\"></xref> to loop update frame manually.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cysharp.Threading.ManualLogicLooperPool.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cysharp.Threading.ManualLogicLooperPool.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Cysharp.Threading.ManualLogicLooperPool",
+      "Summary": "<p sourcefile=\"api/Cysharp.Threading.ManualLogicLooperPool.yml\" sourcestartlinenumber=\"1\">Provides a pool of <xref href=\"Cysharp.Threading.ManualLogicLooper\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cysharp.Threading.RoundRobinLogicLooperPoolBalancer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cysharp.Threading.RoundRobinLogicLooperPoolBalancer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Cysharp.Threading.RoundRobinLogicLooperPoolBalancer",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Cysharp.Threading.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Cysharp.Threading.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Cysharp.Threading",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Microsoft.Extensions.DependencyInjection.LogicLooperDiagnosticsExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Microsoft.Extensions.DependencyInjection.LogicLooperDiagnosticsExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Microsoft.Extensions.DependencyInjection.LogicLooperDiagnosticsExtensions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Microsoft.Extensions.DependencyInjection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Microsoft.Extensions.DependencyInjection.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Microsoft.Extensions.DependencyInjection",
+      "Summary": null
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
